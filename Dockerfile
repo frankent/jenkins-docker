@@ -9,6 +9,7 @@ apt-get -y install apt-transport-https \
      gnupg2 \
      file \
      zip \
+     sshpass \
      software-properties-common && \
 curl -fsSL https://download.docker.com/linux/$(. /etc/os-release; echo "$ID")/gpg > /tmp/dkey; apt-key add /tmp/dkey && \
 add-apt-repository \
